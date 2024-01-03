@@ -3,7 +3,7 @@
 import React,{useState} from 'react'
 import meme from '@/public/meme.gif'
 
-const page = () => {
+const Page = () => {
 
   const [word,setWord]=useState("");
   const [yes,setYes]=useState();
@@ -46,4 +46,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
